@@ -1,6 +1,7 @@
 import { Separator } from '@radix-ui/react-context-menu'
 import React from 'react'
-
+import  DesktopSidebar  from "../../components/Sidebar"
+ 
 function layout({children} : {children : React.ReactNode}) {
   return (
     <div className="flex h-screen">
@@ -13,10 +14,9 @@ function layout({children} : {children : React.ReactNode}) {
                     {children}
                 </div>
             </div>
-
         </div>
     </div>
   )
 }
-
+ 
 export default layout
