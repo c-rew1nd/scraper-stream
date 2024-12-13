@@ -13,7 +13,7 @@ function layout({children} : {children : React.ReactNode}) {
                 <div className="flex-1 container py-4 text-accent-foreground">
                     {children}
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
   )
