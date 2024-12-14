@@ -1,4 +1,4 @@
-import { Separator } from '@radix-ui/react-context-menu'
+import { Separator } from "@/components/ui/separator"
 import React from 'react'
 import  DesktopSidebar  from "../../components/Sidebar"
  
