@@ -2,7 +2,6 @@ import { Separator } from "@/components/ui/separator"
 import React from 'react'
 import  DesktopSidebar  from "../../components/Sidebar"
 import BreadcrumbHeader from "@/components/BreadcrumbHeader"
-import { AppProviders } from "@/components/providers/AppProviders"
 import { ModeToggle } from "@/components/ThemeModeToggle"
  
 function layout({children} : {children : React.ReactNode}) {

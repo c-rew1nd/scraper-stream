@@ -57,4 +57,13 @@ function DesktopSidebar() {
   )
 }
 
+export function MobileSidebar() {
+  const pathname = usePathname();
+  const activeRoute = routes.find(
+    (route) => route.href.length > 0 && pathname.includes(route.href)
+  ) || routes[0];
+  return <div>Mobile Sidebar</div>
+}
+
+
 export default DesktopSidebar
