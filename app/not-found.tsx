@@ -1,6 +1,7 @@
 import { ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
+import import { connect } from 'react-redux'
 
 function NotFoundPage() {
   return (
