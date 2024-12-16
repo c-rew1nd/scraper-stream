@@ -13,7 +13,7 @@ function NotFoundPage() {
                 Page Not Found
             </h2>
             <p className='text-muted-foreground mb-8 max-w-md'>
-                Dont&apos;t worry, even the best data sometimes gets lost on the internet.
+                Don&apos;t worry, even the best data sometimes gets lost on the internet.
             </p>
             <div className='flex flex-col sm:flex-row justify-center gap-4'>
                 <Link href={"/"} 
